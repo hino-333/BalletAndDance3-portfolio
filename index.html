@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>BALLET&DANCEⅢ</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/mystyle.css">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+<!-- ファビコン -->
+ <link rel="shortcut icon" href="img/curtain_ver.2.png" type="image/x-icon">
+</head>
+<body>
+    <!-- ローディング画面 -->
+<div id="loading-screen">
+    <div class="loader-inner">
+        <div id="loading-percent">0%</div>
+    </div>
+</div>
+
+<div id="loading-curtain">
+    <div class="curtain-glow"></div>
+    <img src="img/curtain_ver.2.png" alt="curtain">
+</div>
+
+<!-- ヘッダー -->
+<header class="fade-in" id="header">
+  <div class="brand-header text-center py-3">
+      <h1 class="brand-title"><a class="nav-link" href="index.html">BALLET&DANCEⅢ</a></h1>
+  </div>
+
+  <nav class="navbar navbar-expand-xl navbar-light">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbar-content">
+              <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link" href="#information">公演情報</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#program">プログラム</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#story">ストーリー</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#cast">キャスト</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#credit">クレジット</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#staf">スタッフ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">フォトギャラリー</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#access">アクセス</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</header>
+
+<!-- 背景で流れるテキスト -->
+<div class="loop-bg">
+    <div class="loop-bg-inner">
+      <span>BALLET&DANCEⅢ BALLET&DANCEⅢ BALLET&DANCEⅢ BALLET&DANCEⅢ</span>
+      <span>BALLET&DANCEⅢ BALLET&DANCEⅢ BALLET&DANCEⅢ BALLET&DANCEⅢ</span>
+        <span>BALLET&DANCEⅢ BALLET&DANCEⅢ BALLET&DANCEⅢ BALLET&DANCEⅢ</span>
+        <span>BALLET&DANCEⅢ BALLET&DANCEⅢ BALLET&DANCEⅢ BALLET&DANCEⅢ</span>
+    </div>
+  </div>
+
+<!-- 公演情報セクション -->
+<section id="information">
+  <div class="section-maintitle fade-in">公演情報</div>
+
+  <div class="page-wrapper fade-in">
+    <div class="container">
+      <h2 class="section-title">タイトル</h2>
+      <p class="section-text nyuru-line">『 BALLET & DANCEⅢ 』</p>
+  </div>
+  <div class="container">
+      <h2 class="section-title">主 催</h2>
+      <p class="section-text nyuru-line">大阪芸術大学 舞台芸術学科 舞踊コース</p>
+  </div>
+
+  <div class="container">
+      <h2 class="section-title">日 時</h2>
+      <p class="section-text nyuru-line">
+        2025年12月23日(火) <br>
+        OPEN 15:00 <br>
+        START 15:30
+      </p>
+  </div>
+  <div class="container text-center mt-4">
+      <div class="ticket-info-wrapper d-flex justify-content-center gap-4">
+          <div class="ticket-circle fade-in-bounce">入場無料</div>
+          <div class="ticket-circle fade-in-bounce">全席自由</div>
+          <div class="ticket-circle fade-in-bounce">チケット不要</div>
+      </div>
+  </div>
+</div>
+</section>
+
+<!-- プログラムセクション -->
+<section id="program">
+  <div class="section-maintitle fade-in">プログラム</div>
+
+  <div class="page-wrapper fade-in">
+      <div class="container">
+          <h2 class="section-title">Ⅰ. 日本舞踊</h2>
+          <p class="section-text nyuru-line">『ステテコ』『桃太郎』『桜ボレロ』</p>
+      </div>
+
+      <div class="container">
+          <h2 class="section-title">Ⅱ. エチュード</h2>
+          <p class="section-text nyuru-line">
+            『薄羽一雫～個が織りなす紙の船～』
+          </p>
+          <br><a href="#etude-story" class="story-btn">ストーリーを見る</a>
+      </div>
+      <div class="container">
+        <h2 class="section-title">Ⅲ. バレエ</h2>
+        <p class="section-text nyuru-line">
+            『カルーセル/回転木馬
+            〜ビリーが誓うジュリーへの永遠の愛〜』
+        </p>
+        <a href="#ballet-story" class="story-btn">ストーリーを見る</a>
+    </div>
+      </div>
+</section>
+<section id="story">
+  <div class="section-maintitle fade-in">ストーリー</div>
+
+  <div class="page-wrapper fade-in">
+      <div class="container" id="etude-story">
+          <h2 class="section-title">エチュード『薄羽一雫～個が織りなす紙の船～』</h2>
+          <p class="section-text nyuru-line story-text">
+            <br>羽のように揺れる紙
+            滲み、折れ、千切れてしまう互いを織り重ね、その先へ...
+          </p>
+      </div>
+      <div class="container story-container">
+        <h2 class="section-title" id="ballet-story">バレエ『カルーセル/回転木馬〜ビリーが誓うジュディへの永遠の愛〜』</h2>
+        <p class="section-text nyuru-line story-text">
+            <br>アメリカの東海岸の街の遊園地にある回転木馬で働く青年ビリーは、客として来ていた女子学生グループたちに声をかけ、 <br>仲良くなりやがてその中のひとりであるジュディに声をかける。 <br>仲間となった若者たちと過ごす楽しい時間は星空が広がる宵まで続きフィールドで楽しいダンスに興じる。 <br>二人は賑やかな仲間たちの輪から離れ愛を告白する。 <br>しかしその後やがてジュディが身ごもり父親になる日が近づくのを意識したビリーは、 <br>
+            焦りのあまり大金の盗みを企てるがあえなく失敗、逃亡する際にビリーは普官に打たれて凶弾に倒れてしまう。
+            <br><br>時空は変わり、天界にいたビリーは自分が死んだとは思わず、 <br>下界を見下ろすとジュディを見つける。 <br>星守に許可を得て星の精たちに導かれ地上に戻り、 <br>ジュディに駆け寄るがジュディは気づかず、 <br>やがて彼女は銃弾に撃たれ倒れている自分にすがる姿を目の当たりにし、現実に気づき嘆きながらその場から去っていく。
+            <br>時は流れ、ビリーの娘のルイーズが浜辺でひとり戯れている。 <br>星守に連れられビリーは彼女の前に現わし、天界の星のかけらを渡して励ますがルイーズは見知らぬ人からもらったそのかけらを不思議そうに見つめながら帰っていった。
+            <br>そして卒業式に参列する仲間たち。それを一緒に見守るジュディ。
+            <br>ビリーは自分がもうそばにいられないことを悔やみながら最後にもう一度永遠の愛を耳元に誓いながら叫ぶ。 <br>空を見つめかっての恋人を想うジュディを見届けてふたたび星守と共に天界に還っていくのだった。
+        </p>
+    </div> 
+    </div>
+</section>
+
+<section id="cast">
+    <div class="section-maintitle fade-in">キャスト</div>
+    <div class="page-wrapper fade-in wrapper-cast">
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">タマラ／星の精/卒業生
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">
+                アマンダ/星の精/卒業生
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">ケイティ/ルイーズ/星の精/卒業生
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">ベッキー/ルイーズ/星の精/卒業生
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">ジェシカ/星の精/卒業生
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">リズ/星守/卒業生
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">メラニー／星の精/卒業生
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">メアリー／ジュディ/星の精/卒業生
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">ニコル/ジュディ／星の精/卒業生
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">ビリー
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">ブラッド/卒業生
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">ステファン／卒業生
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">ロバート/青年
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">ポール/青年
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">イーサン/青年
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">ライアン/青年
+            </p>
+        </div>
+        <div class="container">
+            <h2 class="section-title">〇〇 〇〇</h2>
+            <p class="section-text nyuru-line">エディ/青年
+            </p>
+        </div>
+      </div>
+    </section>
+    <!-- クレジット -->
+    <section id="credit">
+        <div class="section-maintitle fade-in">クレジット</div>
+        <div class="page-wrapper fade-in">
+            <div class="container">
+                <h2 class="section-title">日本舞踊</h2>
+                <p class="section-text nyuru-line">振付 : 〇〇〇〇
+                </p>
+            </div>
+            <div class="container">
+                <h2 class="section-title">エチュード</h2>
+                <p class="section-text nyuru-line">
+                    音楽 : Ludovico Einaudi、
+                    I Virtuosi Italiani、 <br>Elephant Music、Fhilip Higham、Ken Arai、久石譲、原摩利彦
+                    <br>振付 : 〇〇〇〇、〇〇〇〇、
+                    〇〇〇〇、 <br>〇〇〇〇、〇〇〇〇、〇〇〇〇
+                </p>
+            </div>
+            <div class="container">
+                <h2 class="section-title">カルーセル/回転木馬</h2>
+                <p class="section-text nyuru-line">
+                        脚本 : オスカー・ハマースタインⅡ
+                    <br>音楽 : リチャード・ロジャース
+                    <br>改訂台本・演出・振付 : 〇〇〇〇
+                    <br>編曲 : 〇〇〇〇
+                </p>
+            </div>
+          </div>
+        </section>
+        <!-- スタッフ -->
+        <section id="staf">
+            <div class="section-maintitle fade-in">スタッフ</div>
+            <div class="page-wrapper fade-in">
+                <div class="container">
+                    <h2 class="section-title">舞踊指導</h2>
+                    <p class="section-text nyuru-line">〇〇〇〇、〇〇〇〇、〇〇〇〇、〇〇〇〇、〇〇〇〇、〇〇〇〇
+                    </p>
+                </div>
+                 <div class="container">
+                    <h2 class="section-title">舞台美術指導</h2>
+                    <p class="section-text nyuru-line">〇〇〇〇、〇〇〇〇、〇〇〇〇、〇〇〇〇
+                    </p>
+                </div>
+                <div class="container">
+                    <h2 class="section-title">舞台音響効果指導</h2>
+                    <p class="section-text nyuru-line">
+                        〇〇〇〇
+                    </p>
+                </div>
+                <div class="container">
+                    <h2 class="section-title">舞台照明指導</h2>
+                    <p class="section-text nyuru-line">
+                        〇〇〇〇
+                    </p>
+                </div>
+                <div class="container">
+                    <h2 class="section-title">舞台美術</h2>
+                    <p class="section-text nyuru-line">
+                        デザイナー : 〇〇〇〇、〇〇〇〇、〇〇〇〇、〇〇〇〇
+                    </p>
+                </div>
+                <div class="container">
+                    <h2 class="section-title">舞台音響効果</h2>
+                    <p class="section-text nyuru-line">
+                        チーフ : 〇〇〇〇
+                        <br>サブチーフ : 〇〇〇〇
+                        <br>〇〇〇〇、〇〇〇〇
+                    </p>
+                </div>
+                <div class="container">
+                    <h2 class="section-title">舞台照明</h2>
+                    <p class="section-text nyuru-line">
+                            プランナー : 〇〇〇〇
+                        <br>オペレーター : 〇〇〇〇、〇〇〇〇
+                        <br>ピン : 〇〇〇〇、〇〇〇〇、〇〇〇〇、〇〇〇〇
+                        <br>ステージ : 〇〇〇〇、〇〇〇〇
+                    </p>
+                </div>
+                <div class="container">
+                    <h2 class="section-title">アナウンス</h2>
+                    <p class="section-text nyuru-line">
+                        〇〇〇〇
+                    </p>
+                </div>
+                <div class="container">
+                    <h2 class="section-title">Webサイト</h2>
+                    <p class="section-text nyuru-line">
+                            デザイン・コーディング : 日野将宏
+                    </p>
+                </div>
+              </div>
+            </section>
+            <section id="gallery">
+                <div class="section-maintitle fade-in">フォトギャラリー</div>
+              
+                <div class="page-wrapper fade-in">
+                  
+                  <div class="container mb-5">
+              
+                    <div id="carousel2025" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                      
+                      <div class="num-indicator">1 / 15</div>
+                        <br>
+                      <div class="carousel-inner shiny-frame">
+                        <div class="carousel-item active"><img src="img/now1.JPEG" class="d-block w-100" alt="2025写真1"></div>
+                        <div class="carousel-item"><img src="img/now10.JPEG" class="d-block w-100" alt="2025写真10"></div>
+                        <div class="carousel-item"><img src="img/now12.JPEG" class="d-block w-100" alt="2025写真12"></div>
+                        <div class="carousel-item"><img src="img/now8.JPEG" class="d-block w-100" alt="2025写真8"></div>
+                        <div class="carousel-item"><img src="img/now11.JPEG" class="d-block w-100" alt="2025写真11"></div>
+                      </div>
+              
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carousel2025" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carousel2025" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+              
+                  <div class="container">
+                    <h2 class="section-title">過去公演</h2>
+                    <br>
+                    <div id="carouselPast" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3500">
+                      
+                      <div class="num-indicator">1 / 10</div>
+              
+                      <div class="carousel-inner shiny-frame">
+                        <div class="carousel-item active"><img src="img/past9.JPEG" class="d-block w-100" alt="過去写真9"></div>
+                        <div class="carousel-item"><img src="img/past4.JPEG" class="d-block w-100" alt="過去写真4"></div>
+                        <div class="carousel-item"><img src="img/past6.JPEG" class="d-block w-100" alt="過去写真6"></div>
+                        <div class="carousel-item"><img src="img/past3.JPEG" class="d-block w-100" alt="過去写真3"></div>
+                        <div class="carousel-item"><img src="img/past10.JPEG" class="d-block w-100" alt="過去写真10"></div>
+                      </div>
+              
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPast" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselPast" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+              
+                </div>
+              </section>
+            <section id="access">
+                <div class="section-maintitle fade-in">アクセス</div>
+                <div class="page-wrapper fade-in">
+                    <div class="container">
+                        <h2 class="section-title">所在地</h2>
+                        <p class="section-text nyuru-line">
+                            〒585-8555
+                            大阪府南河内長野郡
+                            河南町東山469
+                        </p>
+                        <h2 class="section-title"><br>最寄り駅・バス案内</h2>
+                        <p class="section-text nyuru-line">
+                            近鉄南大阪線・長野線「喜志駅」より
+                            <br>大阪芸術大学無料スクールバス約10分 </p>
+
+                        <h2 class="section-title"><br>マップ</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56438.221090076084!2d135.5899121113572!3d34.51141768453584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60012998f3e70f9b%3A0x5858b322dc101137!2z5aSn6Ziq6Iq46KGT5aSn5a2m!5e1!3m2!1sja!2sjp!4v1763715893678!5m2!1sja!2sjp" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+                    </div>
+                    </div>
+                    </section>
+<!-- トップに戻るボタン -->
+    <a href="#header" class="back-to-top">
+        <img src="img/curtain_ver.2.png" alt="トップに戻るボタン">
+        <span>トップに戻る</span>
+      </a>
+<!-- フッター -->
+<footer>
+  <div class="text-center py-3">
+    <p>
+        &copy; 2025 BALLET&DANCEⅢ<br>
+        <span style="font-size: 0.8em;">Designed by Masahiro Hino(このWebサイトは、大阪芸術大学の学生によって制作されています。)<br>※ ポートフォリオ掲載用の控えです。掲載許可を得て、出演者・スタッフのお名前と写真を伏せています。</span>
+    </p>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
